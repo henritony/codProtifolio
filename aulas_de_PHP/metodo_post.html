@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Média Bimestral</title>
+</head>
+<body>
+    <?php
+echo <p>
+        <strong> Dados de Entradas </strong><br>
+        Crie um programa que após receber:<br>
+        nome:<br>
+        matéria:<br>
+        notas bimestrais:<br> 
+        via form .<hr>
+        <strong> Processamento </strong><br>
+        Calcule a média e informe o resultado se:<br>
+        Média for >= 7  Aprovado / Média for >= 5 Recuperação / Média for < 5 Reprovado.<hr>
+        <strong> Dados de Saida </strong><br>
+        No final Imprima:<br>
+        Nome:<br>
+        Matéria:<br>
+        Média: e Sitiação.<br>
+        </p>
+?>
+    <h1>Boletim Escolar</h1>
+    <form action="metodo_post.php" method="post">
+
+    <label>Nome do aluno:</label>
+    <input type="text" name="nome" id="nome"><br>
+    <label>Matéria:</label>
+    <input type="text" name="materia" id="materia"><br>
+    <h2>Notas Bimestrais</h2><br>
+    <label>1° Bim:</label>
+    <input type="text" name="ntB01" id="ntB01"><br>
+    <label>2° Bim:</label>
+    <input type="text" name="ntB02" id="ntB02"><br>
+    <label>3° Bim:</label>
+    <input type="text" name="ntB03" id="ntB03"><br>
+    <label>4° Bim:</label>
+    <input type="text" name="ntB04" id="ntB04"><br>
+    <button><strong>Enviar Dados </strong></button>
+    </form>
+    
+</body>
+</html>
